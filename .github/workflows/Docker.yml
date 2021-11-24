@@ -28,5 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: nginx
         run: |
+          ls
+          cd .github/workflows
           docker build -t nginx .
       
