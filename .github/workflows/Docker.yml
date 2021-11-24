@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Docker
+      - name: nginx
         run: |
-          docker pull nginx
+          docker build ./nginx
       
